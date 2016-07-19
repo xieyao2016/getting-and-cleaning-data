@@ -1,16 +1,16 @@
 Code Book
 =========
 
-This code book summarizes the resulting data fields in MeanData.txt.
+-This code book summarizes the resulting data fields in MeanData.txt.
 
 Identifiers
 ------------
 
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
+-subject - The ID of the test subject
+-activity - The type of activity performed when the corresponding measurements were taken
 
 Feature Selection 
-=================
+----------
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -22,7 +22,7 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 Measurements
-================
+------------
 
 
 [1] "subject"                          "activity"                         "timeBodyAccMean-X"                "timeBodyAccMean-Y"      [5] "timeBodyAccMean-Z"                "timeBodyAccStd-X"                 "timeBodyAccStd-Y"                 "timeBodyAccStd-Z"     [9] "timeGravityAccMean-X"             "timeGravityAccMean-Y"             "timeGravityAccMean-Z"             "timeGravityAccStd-X"    [13] "timeGravityAccStd-Y"              "timeGravityAccStd-Z"              "timeBodyAccJerkMean-X"            "timeBodyAccJerkMean-Y" [17] "timeBodyAccJerkMean-Z"            "timeBodyAccJerkStd-X"             "timeBodyAccJerkStd-Y"             "timeBodyAccJerkStd-Z"
@@ -34,7 +34,7 @@ Measurements
 [65] "frequenceBodyBodyGyroMagMean"     "frequenceBodyBodyGyroMagStd"      "frequenceBodyBodyGyroJerkMagMean" "frequenceBodyBodyGyroJerkMagStd" 
 
 Activity Labels
-=================
+---------------
 
 WALKING (value 1): subject was walking during the test
 
