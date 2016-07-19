@@ -1,8 +1,10 @@
 Code Book
+=========
 
 This code book summarizes the resulting data fields in MeanData.txt.
 
 Identifiers
+===========
 
 subject - The ID of the test subject
 activity - The type of activity performed when the corresponding measurements were taken
@@ -20,26 +22,19 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 Measurements
+================
 
 
-[1] "subject"                          "activity"                         "timeBodyAccMean-X"                "timeBodyAccMean-Y"                [5] "timeBodyAccMean-Z"                "timeBodyAccStd-X"                 "timeBodyAccStd-Y"                 "timeBodyAccStd-Z"                
-[9] "timeGravityAccMean-X"             "timeGravityAccMean-Y"             "timeGravityAccMean-Z"             "timeGravityAccStd-X"             
-[13] "timeGravityAccStd-Y"              "timeGravityAccStd-Z"              "timeBodyAccJerkMean-X"            "timeBodyAccJerkMean-Y"           
-[17] "timeBodyAccJerkMean-Z"            "timeBodyAccJerkStd-X"             "timeBodyAccJerkStd-Y"             "timeBodyAccJerkStd-Z"            
-[21] "timeBodyGyroMean-X"               "timeBodyGyroMean-Y"               "timeBodyGyroMean-Z"               "timeBodyGyroStd-X"               
-[25] "timeBodyGyroStd-Y"                "timeBodyGyroStd-Z"                "timeBodyGyroJerkMean-X"           "timeBodyGyroJerkMean-Y"          
-[29] "timeBodyGyroJerkMean-Z"           "timeBodyGyroJerkStd-X"            "timeBodyGyroJerkStd-Y"            "timeBodyGyroJerkStd-Z"           
-[33] "timeBodyAccMagMean"               "timeBodyAccMagStd"                "timeGravityAccMagMean"            "timeGravityAccMagStd"            
-[37] "timeBodyAccJerkMagMean"           "timeBodyAccJerkMagStd"            "timeBodyGyroMagMean"              "timeBodyGyroMagStd"              
-[41] "timeBodyGyroJerkMagMean"          "timeBodyGyroJerkMagStd"           "frequenceBodyAccMean-X"           "frequenceBodyAccMean-Y"          
-[45] "frequenceBodyAccMean-Z"           "frequenceBodyAccStd-X"            "frequenceBodyAccStd-Y"            "frequenceBodyAccStd-Z"           
-[49] "frequenceBodyAccJerkMean-X"       "frequenceBodyAccJerkMean-Y"       "frequenceBodyAccJerkMean-Z"       "frequenceBodyAccJerkStd-X"       
-[53] "frequenceBodyAccJerkStd-Y"        "frequenceBodyAccJerkStd-Z"        "frequenceBodyGyroMean-X"          "frequenceBodyGyroMean-Y"         
-[57] "frequenceBodyGyroMean-Z"          "frequenceBodyGyroStd-X"           "frequenceBodyGyroStd-Y"           "frequenceBodyGyroStd-Z"          
-[61] "frequenceBodyAccMagMean"          "frequenceBodyAccMagStd"           "frequenceBodyBodyAccJerkMagMean"  "frequenceBodyBodyAccJerkMagStd"  
+[1] "subject"                          "activity"                         "timeBodyAccMean-X"                "timeBodyAccMean-Y"      [5] "timeBodyAccMean-Z"                "timeBodyAccStd-X"                 "timeBodyAccStd-Y"                 "timeBodyAccStd-Z"     [9] "timeGravityAccMean-X"             "timeGravityAccMean-Y"             "timeGravityAccMean-Z"             "timeGravityAccStd-X"    [13] "timeGravityAccStd-Y"              "timeGravityAccStd-Z"              "timeBodyAccJerkMean-X"            "timeBodyAccJerkMean-Y" [17] "timeBodyAccJerkMean-Z"            "timeBodyAccJerkStd-X"             "timeBodyAccJerkStd-Y"             "timeBodyAccJerkStd-Z"
+[21] "timeBodyGyroMean-X"               "timeBodyGyroMean-Y"               "timeBodyGyroMean-Z"               "timeBodyGyroStd-X"     [25] "timeBodyGyroStd-Y"                "timeBodyGyroStd-Z"                "timeBodyGyroJerkMean-X"           "timeBodyGyroJerkMean-Y"
+[29] "timeBodyGyroJerkMean-Z"           "timeBodyGyroJerkStd-X"            "timeBodyGyroJerkStd-Y"            "timeBodyGyroJerkStd-Z" [33] "timeBodyAccMagMean"               "timeBodyAccMagStd"                "timeGravityAccMagMean"            "timeGravityAccMagStd"  [37] "timeBodyAccJerkMagMean"           "timeBodyAccJerkMagStd"            "timeBodyGyroMagMean"              "timeBodyGyroMagStd"    [41] "timeBodyGyroJerkMagMean"          "timeBodyGyroJerkMagStd"           "frequenceBodyAccMean-X"           "frequenceBodyAccMean-Y"
+[45] "frequenceBodyAccMean-Z"           "frequenceBodyAccStd-X"            "frequenceBodyAccStd-Y"            "frequenceBodyAccStd-Z" [49] "frequenceBodyAccJerkMean-X"       "frequenceBodyAccJerkMean-Y"       "frequenceBodyAccJerkMean-Z"   "frequenceBodyAccJerkStd-X" [53] "frequenceBodyAccJerkStd-Y"        "frequenceBodyAccJerkStd-Z"        "frequenceBodyGyroMean-X"        "frequenceBodyGyroMean-Y" [57] "frequenceBodyGyroMean-Z"          "frequenceBodyGyroStd-X"           "frequenceBodyGyroStd-Y"           "frequenceBodyGyroStd-Z"
+[61] "frequenceBodyAccMagMean"          "frequenceBodyAccMagStd"           "frequenceBodyBodyAccJerkMagMean"
+"frequenceBodyBodyAccJerkMagStd"  
 [65] "frequenceBodyBodyGyroMagMean"     "frequenceBodyBodyGyroMagStd"      "frequenceBodyBodyGyroJerkMagMean" "frequenceBodyBodyGyroJerkMagStd" 
 
 Activity Labels
+=================
 
 WALKING (value 1): subject was walking during the test
 WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
